@@ -38,7 +38,7 @@ endmodule
 
 ```
 ## **Testbench Program
-
+```
 // gedit tb4.v
 module tb4;
     reg  A, B, S, D;
@@ -85,7 +85,7 @@ module tb4;
         #10 $finish;
     end
 endmodule
-
+```
 ## Truth Table
 
 ### 2:1 Multiplexer
@@ -145,6 +145,8 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 
 •	Y = S'.A + S.B
 •	Y0 = S'.D, Y1 = S.D
+
+
 <img width="795" height="318" alt="image" src="https://github.com/user-attachments/assets/9f1a6f57-3add-43bd-8c62-1ae63a9d7834" />
 
 
@@ -153,6 +155,8 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 ## Output
 
 <img width="1837" height="1011" alt="image" src="https://github.com/user-attachments/assets/a42efdaa-b905-4cb4-8c36-cfec768207e9" />
+
+
 
 
 <img width="1840" height="977" alt="image" src="https://github.com/user-attachments/assets/f7c25f8d-da96-4631-b04f-aedbfb5c5c6c" />
